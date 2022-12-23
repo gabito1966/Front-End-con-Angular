@@ -1,0 +1,47 @@
+<nav class="navbar sticky-top navbar-dark  bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">
+            <img src="assets/img/APLogo-20-20.png" alt="Logo Argentina Programa" class="w-50">
+            <span>#Yoprogramo</span>
+        </a>
+
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+                <!--Boton que envia al login-->
+                <a routerLink="/login"><i class="fa-solid fa-user-lock  fa-2x text-white"></i></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--formulario Login-->
+<section class="login">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8 formulario-login">
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-outline-light">Ingresar</button>
+                </div>
+                <small class="h3" style="color: white;">Si no tenes cuenta, <a
+                        routerLink="/registro">Registrate!!</a></small>
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+    </div>
+</section>
+
+
